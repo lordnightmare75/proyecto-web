@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema</title>
+    <link rel="stylesheet" href="/Sistema de autos/estilos2.css">
+    <script src="./index3.js"></script>
+</head>
+<body>
+
+<div id="div2" style="margin-left: 250px;" >
+    <h1 class="xd">AFILIACIÓN DEL CLIENTE</h1>
+   <form>
+    <p>>Nombre<input type="text" id="nombre" placeholder="indique su nombre" ></p> <!-- required hace que el campo sea obligatorio -->
+    <p>Apellido<input type="text" id="apellido" placeholder="indique su apellido"></p>
+    <p>edad<input type="number" id="edad" ></p>
+    <p>dni<input type="number" id="dni" placeholder="indique su dni"></p>
+    <p>fecha<input type="date" id="fecha" value="2008-01-28"></p>
+    <p>email<input type="email" id="email" placeholder="indique su email"></p>
+    <p>password<input type="password" id="password" placeholder="indique su password"></p>
+    <p>sexo : <input type="radio" id="sexo" value="masculino"> Masculino
+    <input type="radio" id="sexo" value="femenino"> Femenino</p> <!-- los radio button sirven para elegir una opción entre varias -->
+    <button onclick="afiliar()">AFILIAR</button>
+    <p id="resultado3"></p>
+</div>
+
+    <div id="div2" >
+     <h1 class="nuevo">COTIZAR EL AUTO</h1>
+     <p>Marcas Disponibles:
+        <select id="marca">
+            <option value="1">Toyota</option>
+            <option value="2">Honda</option>
+            <option value="3">Ford</option>
+            <option value="4">Nissan</option>
+        </select>
+     </p>
+     <p>TIPO DE AUTO:
+        <select id="tauto">
+        <option value="1">camioneta</option>
+        <option value="2">sedan</option>
+        <option value="3">Deportivo</option>
+        </select>
+     </p>
+
+      <p>FINANCIAMIENTO
+        <select id=financiamiento>
+        <option value="1">BASICO</option>
+        <option value="2">POCAS CUOTAS</option>
+        <option value="3">MUCHAS CUOTAS</option>
+    </select>
+     </p>
+     <button type="button" onclick="cotizar()">COTIZAR</button>
+     <p id="resultado4"></p>
+
+    </div>
+
+</body>
+</html>

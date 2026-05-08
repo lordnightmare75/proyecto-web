@@ -1,0 +1,39 @@
+h1{
+color: rgb(255, 255, 255);
+text-shadow: 2px 2px 4px #fa0000;
+}
+/*este es el div de la pantalla de ingreso*/
+.div1{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 30px;
+text-align: center;
+background-image: url("auto1.jpg");
+width: 100%;
+height: 750px;
+background-size: cover;
+color: white;
+padding-top: 50px;
+}
+
+#div2{
+border: black solid;
+width: 500px;
+height: 650px;
+background-image: url("auto2.jpg");
+background-size: cover;
+color: white;
+text-shadow: black 1px 0 10px;
+display: inline-table;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+}
+
+.nuevo{
+    color: rgb(255, 255, 255);
+    text-shadow: black 1px 0 10px;
+}
+
+.xd{
+    color: rgb(255, 255, 255);
+    text-shadow: black 1px 0 10px;
+}
